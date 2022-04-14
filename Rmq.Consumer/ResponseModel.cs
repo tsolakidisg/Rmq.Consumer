@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Rmq.Consumer
 {
-    class OrderConsume
+    class ResponseModel
     {
         public string Progress { get; set; }
     }

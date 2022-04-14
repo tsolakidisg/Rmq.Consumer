@@ -1,16 +1,16 @@
 ﻿namespace Rmq.Consumer
 {
-    public class OrderPublish
+    public class RequestModel
     {
         public int OrderID { get; set; }
         public string OrderStatus { get; set; }
 
-        public OrderPublish()
+        public RequestModel()
         {
 
         }
 
-        public OrderPublish(int orderId, string orderStatus)
+        public RequestModel(int orderId, string orderStatus)
         {
             this.OrderID = orderId;
             this.OrderStatus = orderStatus;
